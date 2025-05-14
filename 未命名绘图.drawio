@@ -49,6 +49,9 @@
         <mxCell id="rDeXFxWdd8TDvrIAUj4u-4" value="辅助工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1200" width="250" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="rDeXFxWdd8TDvrIAUj4u-5" value="定时器初始化&lt;br&gt;启动定时器&lt;br&gt;停止定时器&lt;br&gt;定时器获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1190" width="260" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
