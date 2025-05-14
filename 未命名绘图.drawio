@@ -32,10 +32,22 @@
           <mxGeometry x="620" y="270" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2wxrhsm7jq61jyVcsF8-8" value="主动对象开启执行线程&lt;br&gt;ocm_active_object_start(me)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="560" width="250" height="110" as="geometry" />
+          <mxGeometry x="30" y="475" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="W2wxrhsm7jq61jyVcsF8-9" value="构造线程&lt;br&gt;uv_run()&lt;br&gt;uv_close()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="560" width="260" height="60" as="geometry" />
+          <mxGeometry x="360" y="500" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDeXFxWdd8TDvrIAUj4u-1" value="构建对象的构建&lt;br&gt;QHsm_ctort(me, initial)&lt;br&gt;构建对象初始化&lt;br&gt;构建对象事件派发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rDeXFxWdd8TDvrIAUj4u-2" value="事件对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1000" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rDeXFxWdd8TDvrIAUj4u-3" value="事件内存申请（加锁）&lt;br&gt;事件内存释放（加锁）&lt;br&gt;显示事件内存池状态信息&lt;br&gt;OCM事件内存池初始化&lt;br&gt;构建一个动态事件&lt;br&gt;事件内存资源的垃圾回收&lt;br&gt;事件引用计数自增" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="990" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rDeXFxWdd8TDvrIAUj4u-4" value="辅助工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1200" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
